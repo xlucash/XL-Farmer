@@ -1,6 +1,6 @@
 # XL-Farmer
 
-XL-Farmer is a farming progression plugin for Paper servers that tracks player experience, unlocks crops and rewards, and integrates with popular skyblock ecosystems. The plugin uses Google Guice for dependency injection and persists player data in either SQLite or MySQL.
+XL-Farmer is a farming progression Spigot plugin that tracks player experience, unlocks crops and rewards, and integrates with popular skyblock ecosystems. The plugin uses Google Guice for dependency injection and persists player data in either SQLite or MySQL.
 
 ## Features
 - Farming experience and level progression with configurable maximum level and experience gains
