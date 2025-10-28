@@ -1,0 +1,14 @@
+name: XL-Farmer
+version: '1.0'
+main: me.xlucash.farmer.XLFarmerMain
+api-version: '1.21'
+authors: [ xlucash ]
+commands:
+  farma:
+    description: Main command for farming system
+    usage: /<command>
+depend:
+  - SuperiorSkyblock2
+  - EconomyShopGUI-Premium
+  - CoreProtect
+  - PlaceholderAPI

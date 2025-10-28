@@ -1,0 +1,40 @@
+# Database connection
+database:
+  type: "SQLite" # SQLite or MySQL
+  mysql:
+    host: "localhost"
+    port: 3306
+    name: "minecraft"
+    username: "root"
+    password: "password"
+
+# Max level for farming system
+max_level: 50
+
+# Set to true to use the formula below
+use_default_formula: true
+exp_formula: 100
+# Set the experience gained for farming one crop
+exp_per_crop: 1
+
+gui:
+  level_panel:
+    unlocked_slot: "GREEN_STAINED_GLASS_PANE"
+    locked_slot: "RED_STAINED_GLASS_PANE"
+    reward_slot_enchanted: true
+  top_head_format: "§a#{position} {player} §7- Level: §e{level}"
+
+crops:
+  CARROTS:
+    level_required: 2
+
+# List of rewards
+# fortune-bonus and unlock-crops are optional
+rewards:
+  "2":
+    commands:
+      - "eco give {player} 250"
+    fortune_bonus: 100
+    description:
+      - "§aYou get §e250 coins"
+      - "§aUnlocked: §eCarrot"
